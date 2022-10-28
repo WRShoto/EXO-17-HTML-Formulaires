@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaires</title>
+</head>
+
+<body>
+
+<h1>premier formulaires</h1>
+
+<from action="mapageaction.php" method="post">
+    <div>
+        <label for="name">prénom</label>
+        <input type="text" id="name" name="name">
+    </div>
+    <div>
+        <label for="name">nom</label>
+        <input type="text" id="long_name" name="long_name">
+    </div>
+
+    <div>
+        <label for="date">date de naissance</label>
+        <input type="date"id="date"name="date">
+    </div>
+    <div>
+        <label for="sexe"></label>
+        <select id="sexe"name="user_sexe">
+                <option value="male">M</option>
+                <option value="female">F</option>
+        </select>
+    </div>
+    <div>
+        <label for="email">adresse email</label>
+        <input type="email"id="email"name="email">
+    </div>
+     <div>
+        <label for="url">url git hub</label>
+        <input type="url"id="url"name="user_url">
+    </div>
+    <button type="submit"name="user_submit">Envoyer</button>
+</from>
+
+</body>
+</html>
